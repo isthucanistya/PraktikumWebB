@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tugas 4</title>
+	<style>
+		#submit{
+		    margin-left: 102px;
+		    width: 65px;
+		    height: 30px;
+		    background: #FF9800;
+		    border: none;
+		    color: white;
+		}
+	</style>
+</head>
+<body>
+	<form method="POST" action="#">
+		<table>
+			<tr>
+				<td>Username</td>
+				<td>:</td>
+				<td><input type="text" name="username" placeholder="Username"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>:</td>
+				<td><input type="password" name="password" placeholder="Password"></td>
+			</tr>
+			<tr>
+			    <td>Gender</td>
+			    <td>:</td>
+			    <td>
+			    	<input type="radio" name="gender">Male
+			    	<input type="radio" name="gender">Female
+			    </td>
+			</tr>
+			<tr>
+				<td>Hobby</td>
+				<td>:</td>
+				<td>
+					<input type="checkbox" name="hobby">Coding
+					<input type="checkbox" name="hobby">Design
+				</td>
+			</tr>
+			<tr>
+				<td>Combo Box</td>
+				<td>:</td>
+				<td>
+					<select>
+						<option>Bali</option>
+						<option>Jakarta</option>
+						<option>Kalimantan</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Text Area</td>
+				<td>:</td>
+				<td>
+					<textarea rows="6" cols="20"></textarea>
+				</td>
+			</tr>
+		</table>
+		<br>
+		<input type="submit" name="submit" value="Submit!" id="submit">
+	</form>
+</body>
+</html>
