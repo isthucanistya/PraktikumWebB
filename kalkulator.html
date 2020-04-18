@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator Menggunakan JS</title>
+	<script type="text/javascript" src="js.js"></script>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			color: #1c2e8e;
+		}
+		h2,p{
+			text-align: center;
+		}
+		input{
+			border-collapse: none;
+			width: 50px;
+			height: 30px;
+		}
+		.tabel{
+			margin-top: 20px;
+			border:1px solid #1c2e8e;
+			width: 20%;
+			padding: 10px;
+			background-color: #1c2e8e2b;
+			border-radius: 10px;
+		}
+		.tabel table{
+			width: 20%;
+			border-collapse: collapse;
+		}
+			.tabel table td{
+				padding-left: 5px;
+			}
+			.tabel table button{
+				width: 54px;
+				height: 33px;
+				border:0px;
+			}
+		input{
+            border: 1px #1c2e8e solid;
+            border-radius: 5px;
+            background-color: white;
+            padding: 5px;
+            margin-top: 10px;
+            /*margin-left: 5px;*/
+        }
+        button{
+        	margin-top: 10px;
+            border-radius: 5px !important;
+            background-color: #1c2e8e;
+            color: white;
+            margin-left: 5px;
+        }
+	</style>
+</head>
+<body>
+	<h2>Kalkulator Dengan JS</h2>
+	<p>Putu Isthu Canistya Chandra - 1708561041</p>
+	<center>
+	<form action="#">
+		<div class="tabel">
+			<table>
+				<tr>
+					<td><input type="text" id="angka1" placeholder="Angka 1"></td>
+					<td><button type="button" onclick="Kalkulator('+')">+</button></td>
+				</tr>
+				<tr>
+					<td><input type="text" id="angka2" placeholder="Angka 2"></td>
+					<td><button type="button" onclick="Kalkulator('-')">-</button></td>
+				</tr>
+				<tr>
+					<td><input type="text" placeholder="Hasil" id="hasil" disabled>	</td>
+					<td><button type="button" onclick="Kalkulator('*')">*</button></td>
+				</tr>
+				<tr>
+					<td><button type="reset">Reset</button></td>
+					<td><button type="button" onclick="Kalkulator('/')">/</button></td>
+				</tr>
+			</table>
+		</div>
+	</form>
+	</center>
+</body>
+</html>
