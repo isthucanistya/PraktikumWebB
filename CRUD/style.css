@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+.body{
+	margin: 50px 0 0 50px;
+	/*text-align: center;*/
+}
+	.body h2,h1{
+		color:#2eba7e;
+	}
+	.body label{
+		color:#2eba7e;
+	}
+
+.tambah{
+	margin-left: 469px;
+	background: #2eba7e;
+    padding: 9px;
+    color: white;
+    font-size: 17px;
+    
+}
+.table{
+	text-align: center;
+	border-collapse: collapse;
+	width: 530px;
+    height: 60px;
+    border: 1px solid #2eba7e;
+    margin-top: 15px;
+}
+	.table th{
+		background: #2eba7e;
+		color: white;
+	}
+
+.form{
+	margin-top: 30px;
+	text-align: center;
+}
+	.form table{
+		margin-top: 10px;
+		/*background: black;*/
+	}
+	.form table input{
+		width: 173px;
+    	height: 24px;
+    	margin-top: 10px;
+	}
+	.button{
+		border: none;
+	    background-color: #2eba7e;
+	    color: white;
+	    width: 80px;
+	    height: 40px;
+	    margin-top: 14px;
+	}
+.alamat{
+    margin-top: 10px;
+}
