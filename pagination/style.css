@@ -1,0 +1,29 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: white
+}
+h1{
+	color: #21bae5;
+}
+.main table{
+	margin-top: 10px;
+	border-collapse: collapse;
+	border-bottom: 1px solid #21bae5;
+}
+.tombol button{
+	border: none;
+    background: #21bae5;
+    width: 93px;
+    height: 35px;
+}
+.tombol ul {
+	list-style-type: none;
+}
+
+.tombol li{
+	display: inline;
+}
