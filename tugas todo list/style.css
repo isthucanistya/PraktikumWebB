@@ -1,0 +1,60 @@
+*{
+            color: #ff0a87
+        }
+        body{
+            margin-left: 10%;
+        }
+        th{
+            width: 7vw;
+            color: #ff0a87;
+        }
+        input{
+            border: 1px #ff0a87 solid;
+            border-radius: 5px;
+            background-color: white;
+            padding: 5px;
+        }
+        button{
+            border: 1px #ff0a87 solid;
+            border-radius: 5px !important;
+            background-color: #ff0a87;
+            color: white;
+            width: 50%;
+            height: 30px;
+        }
+        table{
+            border: 1px solid #ff0a87;
+            background-color: white;
+            border-collapse: collapse;
+        }
+        td{
+            text-align: center; 
+            vertical-align: middle;
+        }
+        th{
+            text-align: center !important;
+            vertical-align: middle;
+        }
+        .inline{
+            display: flex;
+        }
+        .inline button{
+            margin-right: 5px;
+        }
+        .form-field{
+            width: 100%;
+        }
+        #age{
+            width: 30% !important;
+        }
+        #clear{
+            background-color: white ;
+            color: #ff0a87;
+        }
+        .konten{
+            border: #f500a3 1px solid;
+            border-radius: 7px;
+            padding: 10px;
+            background-color: #ffd1f436;
+            width: 35%;
+        }

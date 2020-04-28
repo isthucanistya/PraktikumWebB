@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kelompok 2</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="js.js"></script>
+</head>
+
+<body>
+    <h2>ToDo List</h2>
+    <div class="container" style="padding: 2rem;">
+        <div class="konten">
+        <div class="row">
+            <div class="col-4">
+                <div class="card" style="width: 18rem;">
+                    <form action="javascript:void(0);">
+                    LIST<br>
+                    <input class="form-field" type="text" name="isi" id="isi" /><br /><br />
+                    <center class="inline"><button type="reset" onclick="addRow();">Tambah List +</button>
+                    <button id="clear" type="reset">Clear</button></center><br />
+                    </form>
+                </div>
+            </div>
+            <div class="col-6">
+                <table border="1" id="datatable">
+                    <tr>
+                        <th align="center"></th>
+                        <th align="center">No</th>
+                        <th align="center">List</th>
+                    </tr>
+                </table>
+                <br/>
+                <input type="button" value="Edit" onclick="editSelRow('datatable')">
+                <input type="button" value="Delete" onclick="deleteSelRow('datatable')">
+                <input type="button" onClick="toggle()" value="Select All"></input>
+                
+            </div>
+        </div>
+        </div>
+    </div>
+    </body>
+</html>
+
