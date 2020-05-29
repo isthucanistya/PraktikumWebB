@@ -1,0 +1,3 @@
+<div class="c_tentang">
+	<p>Perpustakaan Universitas Udayana ini merupakan Perpustakaan Online yang tentunya siap melayani. Sistem layanan yang digunakan di perpustakaan adalah sistem layanan terbuka (open access), dimana pengunjung dapat langsung memanfaatkan koleksi dan meminjamnya. Sistem ini diterapkan pada koleksi buku teks, sedangkan koleksi lainya seperti majalah,referensi, skripsi, tesis, disertasi dan lapen tidak dapat dipinjamkan.</p>
+</div>
